@@ -96,4 +96,4 @@ Flexbox is something I am well-versed with now thanks to these frontendmentor.io
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@TK-LS97](https://www.frontendmentor.io/profile/TK-LS97)
