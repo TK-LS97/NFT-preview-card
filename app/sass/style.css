@@ -1,0 +1,141 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+}
+
+.big-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 542px;
+  width: 327px;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+  padding: 24px;
+  font-size: 15px;
+  box-shadow: 0 30px 30px 10px hsl(217deg, 52%, 5%);
+}
+
+.nft-pic {
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 278px;
+}
+
+.clock-div {
+  display: flex;
+  align-items: center;
+}
+
+.eth-div {
+  display: flex;
+  align-items: center;
+  justify-items: left;
+}
+
+.ethereum {
+  margin-right: 7px;
+}
+
+.clock {
+  margin-right: 7px;
+}
+
+h4 {
+  font-size: 18px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+p {
+  color: hsl(215deg, 51%, 70%);
+}
+
+.eth-text {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+
+.border {
+  border-color: hsl(215deg, 32%, 27%);
+  margin-top: 5px;
+  width: 100%;
+}
+
+.profile {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.avatar {
+  border: solid 2px hsl(0deg, 0%, 100%);
+  border-radius: 35px;
+  margin-right: 15px;
+}
+
+.name:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.nft-pic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.viewdiv {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(178deg, 100%, 50%);
+  width: 278px;
+  height: 278px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer:hover .nft-pic {
+  opacity: 1;
+}
+
+.imgContainer:hover .viewdiv {
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

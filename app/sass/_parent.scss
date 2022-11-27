@@ -1,0 +1,93 @@
+.parent{
+    display:flex;
+    flex-direction: column;
+    height:542px;
+    width:327px;
+    background-color:$VeryDarkBlue_cardBG ;
+    border-radius:15px;
+    padding:24px;
+    font-size:15px;
+    box-shadow:0 30px 30px 10px hsl(217, 52%, 5%);
+}
+
+.nft-pic{
+    border-radius:10px;
+}
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:278px;   
+}
+
+
+.clock-div{
+
+    display:flex;
+    align-items: center;
+    
+}
+
+.eth-div{
+    
+    display:flex;
+    align-items: center;
+    justify-items:left;
+    //margin-left:-80px;
+
+}
+
+.ethereum{
+    margin-right:7px;
+}
+
+.clock{
+    margin-right:7px;
+}
+
+
+h4{
+    font-size:18px;
+    color:$White;
+    font-weight:700;
+    margin-bottom:0;
+}
+
+p{
+    color:$SoftBlue;
+}
+
+.eth-text{
+    color:$Cyan;
+    font-weight:600;
+}
+
+.border{
+    border-color:$VeryDarkBlue_line ;
+    margin-top:5px;
+    width:100%;
+}
+
+.profile{
+    margin-top:5px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.avatar{
+
+    border: solid 2px $White;
+    border-radius:35px;
+    margin-right:15px;
+}
+
+
+.name:hover{
+    color:$Cyan;
+    cursor:pointer;
+}
+
+

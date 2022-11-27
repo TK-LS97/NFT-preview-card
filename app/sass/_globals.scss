@@ -1,0 +1,22 @@
+html{
+    font-size:100%; //gives user full zoom control
+    box-sizing:border-box; 
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+
+    font-family: 'Outfit', sans-serif;
+    background-color:$VeryDarkBlue_MainBG;
+}
+
+.big-container{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
